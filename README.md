@@ -7,8 +7,9 @@ Kind is a tool for running local Kubernetes clusters using Docker container "nod
 🎯  Key Features
 ```
 ✅ Multi-node (including HA) clusters
-✅ Kind supports building Kubernetes release builds from source support for make / bash or docker, in addition to pre-published builds
+✅ Kind supports building Kubernetes release builds from source
 ✅ Supports Linux, macOS and Window
+✅ Conformant Kubernetes installer
 ```
 
 🚀 
