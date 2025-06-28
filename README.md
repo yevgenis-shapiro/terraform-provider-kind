@@ -1,6 +1,6 @@
 ![397890132-24bcbfd4-a2bb-4951-a75c-8887f5c2f37c](https://github.com/user-attachments/assets/34106ca9-e6e3-43e8-93b7-1cb242c77145)
 
-## Local | Dynamic Environment 
+## Module Kind | Local Environment 
 Deploy application using terraform in which you can have multiple iterations of same resource based on the resource or different application. Usage of terraform can simplified the deployment, however it depends on your use case and scenario
 
 
