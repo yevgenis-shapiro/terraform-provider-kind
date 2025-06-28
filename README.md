@@ -1,6 +1,6 @@
 ![397890132-24bcbfd4-a2bb-4951-a75c-8887f5c2f37c](https://github.com/user-attachments/assets/2f491baf-73be-423d-9e1d-07f5a8839544)
 
-## Module Kind | Local Environment 
+## Module Kind | Local Kuberenetes
 Deploy application using terraform in which you can have multiple iterations of same resource based on the resource or different application. Usage of terraform can simplified the deployment, however it depends on your use case and scenario
 
 
