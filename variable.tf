@@ -1,7 +1,21 @@
 
+variable "kind_cluster_name" {
+  description = "The name of the Kind cluster"
+  type        = string
+}
+
+variable "kind_cluster_config_path" {
+  description = "Path to save the Kind kubeconfig file"
+  type        = string
+}
+
 variable "k8s_version" {
-  default = "v1.29.2"
+  description = "Kubernetes version to use for Kind nodes"
+  type        = string
 }
+
 variable "worker_count" {
-  default = 1
+  description = "Number of worker nodes"
+  type        = number
 }
+
