@@ -6,9 +6,9 @@ Kind is a tool for running local Kubernetes clusters using Docker container "nod
 
 🎯  Key Features
 ```
-✅ ArgoCD Provider in Terraform
-✅ ArgoCD Application Deployment using Terraform
-✅ ArgoCD Repository using Terraform
+✅ Multi-node (including HA) clusters
+✅ Kind supports building Kubernetes release builds from source support for make / bash or docker, in addition to pre-published builds
+✅ Supports Linux, macOS and Window
 ```
 
 🚀 
