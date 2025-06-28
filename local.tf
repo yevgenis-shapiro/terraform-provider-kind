@@ -1,4 +1,7 @@
 
+provider "kind" {
+}
+
 provider "kubernetes" {
   config_path = pathexpand(var.kind_cluster_config_path)
   depends_on  = [kind_cluster.default]
