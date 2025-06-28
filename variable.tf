@@ -1,3 +1,4 @@
+
 variable "k8s_version" {
   default = "v1.23.4"
 }
