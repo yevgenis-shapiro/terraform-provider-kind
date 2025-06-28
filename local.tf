@@ -48,3 +48,11 @@ resource "kind_cluster" "default" {
     }
   }
 }
+
+resource "null_resource" "export_kubeconfig" {
+  depends_on = [kind_cluster.default]
+
+  provisioner "local-exec" {
+    command = "echo 'export KUBECONFIG=${kind_cluster.default.kubeconfig_path}' >> ~/.bashrc"
+  }
+}
