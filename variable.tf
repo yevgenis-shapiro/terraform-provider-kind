@@ -19,3 +19,9 @@ variable "worker_count" {
   type        = number
 }
 
+variable "additional_control_planes_count" {
+  description = "Number of additional control planes for HA"
+  type        = number
+  default     = 2
+}
+
