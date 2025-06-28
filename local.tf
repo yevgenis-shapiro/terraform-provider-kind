@@ -1,4 +1,9 @@
 
+provider "kubernetes" {
+  config_path = pathexpand(var.kind_cluster_config_path)
+  depends_on  = [kind_cluster.default]
+}
+
 resource "kind_cluster" "default" {
   name            = var.kind_cluster_name
   kubeconfig_path = pathexpand(var.kind_cluster_config_path)
