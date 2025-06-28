@@ -39,6 +39,15 @@ resource "kind_cluster" "default" {
       }
     }
 
+    # Additional control planes for HA
+    dynamic "node" {
+      for_each = toset(range(var.additional_control_planes_count))
+      content {
+        role  = "control-plane"
+        image = "kindest/node:${var.k8s_version}"
+      }
+    }
+    # Additional workers
     dynamic "node" {
       for_each = toset(range(var.worker_count))
       content {
